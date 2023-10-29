@@ -1,0 +1,33 @@
+#!/usr/bin/bash
+
+# git hook to enforce commit message structure
+#
+# commit message should follow the structure below
+# <type>(scope): description
+#  |     |       |
+#  |     |       |-> commit message, can be multiple lines, 
+#  |     |             but make it short as possible
+#  |     |
+#  |     |-> affected part of project, could be either
+#  |              project - nand2tetris project files
+#  |              digital - digital simulation files
+#  |              icons   - digital component icons
+#  |              docs    - documentations
+#  |              misc    - anything else
+#  |
+#  |-> type of commit, could be either "new" or "fix"
+#           --[empty line (if body)]--
+#  [optional body]
+
+pattern="^(new|fix)\((project|digital|icons|docs|misc)\):\s.*\n(\n.*)*$"
+
+if sed -e "/^\#.*/d" $1 | grep -zPq $pattern; then
+    exit 0
+else
+    echo -e "
+    commit does not follow standards
+    refer the docs for details
+    https://github.com/me-nkr/nand2tetris#git
+    "
+    exit 1
+fi
