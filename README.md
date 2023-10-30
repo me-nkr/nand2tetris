@@ -37,8 +37,8 @@ nand2tetris/
 - shape-stroke-width: 6px
 - pin-fontcolor: white
 - pin-fontsize: 4pt
-- pin-distance: 1 major grid cell
-- pin-distance-multibit: 2 major grid cell
+- pin-distance: 2 major grid cell
+- pin-distance-multibit: 4 major grid cell
 #### digital specefic
 - digital-pin-input-color: blue
 - digital-pin-output-color: red
