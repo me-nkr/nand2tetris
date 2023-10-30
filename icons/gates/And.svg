@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="-80 -80 220 180"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="And.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     showgrid="true"
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.3718178"
+     inkscape:cx="113.38993"
+     inkscape:cy="84.355834"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3">
+    <inkscape:grid
+       type="xygrid"
+       empspacing="4"
+       spacingx="5"
+       spacingy="5"
+       id="grid1"
+       visible="true"
+       originx="0"
+       originy="0"
+       units="px" />
+  </sodipodi:namedview>
+  <g
+     id="g1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5.26235;stroke-linecap:square"
+       d="M -2.3076923,-20 H -17.692308"
+       id="path3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-5.7421875"
+       y="-18.730762"
+       id="text1"
+       inkscape:label="a"
+       style="font-size:5.33333px;fill:#ffffff;fill-opacity:1">a</text>
+    <circle
+       fill="#0000b2"
+       id="pin:a"
+       cx="-20"
+       cy="-20"
+       r="3" />
+  </g>
+  <g
+     id="g2">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5.26235;stroke-linecap:square"
+       d="M -2.3076923,20 H -17.692308"
+       id="path4" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-6.041667"
+       y="22.022194"
+       id="text2"
+       inkscape:label="b"
+       style="font-size:5.33333px;fill:#ffffff;fill-opacity:1">b</text>
+    <circle
+       fill="#0000b2"
+       id="pin:b"
+       cx="-20"
+       cy="20"
+       r="3" />
+  </g>
+  <g
+     id="g3">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5.22096;stroke-linecap:square"
+       d="m 62.589952,0 h 15.14358"
+       id="path5" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       text-anchor="end"
+       x="71.441826"
+       y="1.5782081"
+       id="text3"
+       inkscape:label="out"
+       style="font-size:5.33333px;fill:#ffffff;fill-opacity:1">out</text>
+    <circle
+       fill="#b20000"
+       id="pin:out"
+       cx="80"
+       cy="0"
+       r="3" />
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square"
+     d="M 0,-40 V 40 C 40.323048,40.056946 59.911317,26.452335 60,0 60.369043,-27.724513 38.450333,-39.702235 0,-40 Z"
+     id="path7"
+     sodipodi:nodetypes="cccc" />
+</svg>
