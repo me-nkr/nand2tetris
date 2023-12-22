@@ -21,15 +21,15 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="5.734636"
-     inkscape:cx="93.903083"
-     inkscape:cy="96.693147"
+     inkscape:zoom="5.1954545"
+     inkscape:cx="94.986878"
+     inkscape:cy="88.635172"
      inkscape:window-width="1920"
      inkscape:window-height="1046"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1">
+     inkscape:current-layer="svg4">
     <inkscape:grid
        type="xygrid"
        empspacing="4"
@@ -41,25 +41,18 @@
        originy="0"
        units="px" />
   </sodipodi:namedview>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square"
+     d="M 80,-17 V 23 L 20,63 V -57 Z"
+     id="path8"
+     transform="translate(-20,-3)" />
   <g
      id="g1"
      transform="translate(-20,-3)">
     <path
-       style="fill:none;stroke:#000000;stroke-width:5.64324;stroke-linecap:square"
-       d="M 2.6538462,-17 H 20.346154"
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-dasharray:none"
+       d="M 2.8013075,-17 H 17.095945"
        id="path4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:5.64324;stroke-linecap:square"
-       d="M 2.6538462,23 H 20.346154"
-       id="path5" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:5.62292;stroke-linecap:square"
-       d="M 79.63356,3 H 97.198666"
-       id="path6" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:5.64324;stroke-linecap:square"
-       d="M 50,80.346154 V 62.653846"
-       id="path7" />
     <circle
        fill="#0000b2"
        id="pin:a"
@@ -69,18 +62,22 @@
     <text
        fill="#808080"
        font-size="18px"
-       x="-18.639999"
-       y="-13.497842"
+       x="14.440001"
+       y="-15.471307"
        id="text1"
-       inkscape:label="a">a</text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square"
-       d="M 80,-17 V 23 L 20,63 V -57 Z"
-       id="path8" />
+       inkscape:label="a"
+       style="font-size:5.33333px"><tspan
+         style="fill:#ffffff"
+         id="tspan2">a</tspan></text>
   </g>
   <g
      id="g2"
      transform="translate(-20,22)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-dasharray:none"
+       d="M 2.809915,23 H 17.139338"
+       id="path5"
+       transform="translate(0,-25)" />
     <circle
        fill="#0000b2"
        id="pin:b"
@@ -90,32 +87,46 @@
     <text
        fill="#808080"
        font-size="18px"
-       x="-23.813448"
-       y="5.2489009"
+       x="14.013335"
+       y="-0.028248206"
        id="text2"
-       inkscape:label="b">b</text>
+       inkscape:label="b"
+       style="font-size:5.33333px"><tspan
+         style="fill:#ffffff"
+         id="tspan3">b</tspan></text>
   </g>
   <g
      id="g3"
      transform="translate(27,40)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-dasharray:none"
+       d="M 13,36.575725 V -1.9730364"
+       id="path7" />
     <circle
        fill="#0000b2"
        id="pin:sel"
-       cx="3"
+       cx="13"
        cy="40"
        r="3" />
     <text
        fill="#808080"
        font-size="18px"
-       x="-7"
-       y="60"
+       x="-6.4853253"
+       y="15.240995"
        id="text3"
-       inkscape:label="sel">sel</text>
+       inkscape:label="sel"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="rotate(-90)">sel</text>
   </g>
   <g
      id="g4"
      transform="translate(20,22)"
      inkscape:label="g4">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-dasharray:none"
+       d="M 82.902626,3 H 97.080327"
+       id="path6"
+       transform="translate(-40,-25)" />
     <circle
        fill="#b20000"
        id="pin:out"
@@ -126,9 +137,12 @@
        fill="#808080"
        font-size="18px"
        text-anchor="end"
-       x="100"
-       y="-17"
+       x="51.154659"
+       y="-20.416449"
        id="text4"
-       inkscape:label="out">out</text>
+       inkscape:label="out"
+       style="font-size:5.33333px"><tspan
+         style="fill:#ffffff"
+         id="tspan1">out</tspan></text>
   </g>
 </svg>

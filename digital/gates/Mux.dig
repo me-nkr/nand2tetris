@@ -47,63 +47,6 @@
         </pins>
         <drawables>
           <poly>
-            <poly path="M 2.6538467,0 L 20.346153,0" evenOdd="false"/>
-            <thickness>5</thickness>
-            <filled>false</filled>
-            <color>
-              <red>0</red>
-              <green>0</green>
-              <blue>0</blue>
-              <alpha>255</alpha>
-            </color>
-          </poly>
-          <poly>
-            <poly path="M 2.6538467,40 L 20.346153,40" evenOdd="false"/>
-            <thickness>5</thickness>
-            <filled>false</filled>
-            <color>
-              <red>0</red>
-              <green>0</green>
-              <blue>0</blue>
-              <alpha>255</alpha>
-            </color>
-          </poly>
-          <poly>
-            <poly path="M 79.63356,20 L 97.19867,20" evenOdd="false"/>
-            <thickness>5</thickness>
-            <filled>false</filled>
-            <color>
-              <red>0</red>
-              <green>0</green>
-              <blue>0</blue>
-              <alpha>255</alpha>
-            </color>
-          </poly>
-          <poly>
-            <poly path="M 50,97.34615 L 50,79.65385" evenOdd="false"/>
-            <thickness>5</thickness>
-            <filled>false</filled>
-            <color>
-              <red>0</red>
-              <green>0</green>
-              <blue>0</blue>
-              <alpha>255</alpha>
-            </color>
-          </poly>
-          <text>
-            <p1 x="-19" y="4"/>
-            <p2 x="-18" y="4"/>
-            <text>a</text>
-            <orientation>LEFTBOTTOM</orientation>
-            <size>18</size>
-            <color>
-              <red>128</red>
-              <green>128</green>
-              <blue>128</blue>
-              <alpha>255</alpha>
-            </color>
-          </text>
-          <poly>
             <poly path="M 80,0 L 80,40 L 20,80 L 20,-40 Z" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
@@ -114,42 +57,99 @@
               <alpha>255</alpha>
             </color>
           </poly>
+          <poly>
+            <poly path="M 2.8013077,0 L 17.095945,0" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
           <text>
-            <p1 x="-24" y="47"/>
-            <p2 x="-23" y="47"/>
+            <p1 x="14" y="2"/>
+            <p2 x="15" y="2"/>
+            <text>a</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 2.8099155,40 L 17.139338,40" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="14" y="42"/>
+            <p2 x="15" y="42"/>
             <text>b</text>
             <orientation>LEFTBOTTOM</orientation>
-            <size>18</size>
+            <size>5</size>
             <color>
-              <red>128</red>
-              <green>128</green>
-              <blue>128</blue>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
               <alpha>255</alpha>
             </color>
           </text>
+          <poly>
+            <poly path="M 60,96.57573 L 60,58.026962" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
           <text>
-            <p1 x="40" y="120"/>
-            <p2 x="41" y="120"/>
+            <p1 x="62" y="66"/>
+            <p2 x="62" y="65"/>
             <text>sel</text>
             <orientation>LEFTBOTTOM</orientation>
-            <size>18</size>
+            <size>5</size>
             <color>
-              <red>128</red>
-              <green>128</green>
-              <blue>128</blue>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
               <alpha>255</alpha>
             </color>
           </text>
+          <poly>
+            <poly path="M 82.902626,20 L 97.08033,20" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
           <text>
-            <p1 x="140" y="25"/>
-            <p2 x="141" y="25"/>
+            <p1 x="91" y="22"/>
+            <p2 x="92" y="22"/>
             <text>out</text>
             <orientation>RIGHTBOTTOM</orientation>
-            <size>18</size>
+            <size>5</size>
             <color>
-              <red>128</red>
-              <green>128</green>
-              <blue>128</blue>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
               <alpha>255</alpha>
             </color>
           </text>
