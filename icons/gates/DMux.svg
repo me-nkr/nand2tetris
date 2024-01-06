@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="-80 -80 220 200"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="DMux.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     showgrid="true"
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.6737411"
+     inkscape:cx="119.90502"
+     inkscape:cy="98.673257"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4">
+    <inkscape:grid
+       type="xygrid"
+       empspacing="4"
+       spacingx="5"
+       spacingy="5"
+       id="grid1"
+       visible="true"
+       originx="0"
+       originy="0"
+       units="px" />
+  </sodipodi:namedview>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square"
+     d="M 0,-20 V 20 L 60,60 V -60 Z"
+     id="path8" />
+  <g
+     id="g1"
+     transform="matrix(-1,0,0,1,80,-3)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-dasharray:none"
+       d="M 2.8013075,-17 H 17.095945"
+       id="path4" />
+    <circle
+       fill="#0000b2"
+       id="pin:a"
+       cx="0"
+       cy="-17"
+       r="3"
+       style="fill:#b20000;fill-opacity:1" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-17.245333"
+       y="-15.471307"
+       id="text1"
+       inkscape:label="a"
+       style="font-size:5.33333px"
+       transform="scale(-1,1)"><tspan
+         style="fill:#ffffff"
+         id="tspan2">a</tspan></text>
+  </g>
+  <g
+     id="g2"
+     transform="matrix(-1,0,0,1,80,22)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-dasharray:none"
+       d="M 2.809915,23 H 17.139338"
+       id="path5"
+       transform="translate(0,-25)" />
+    <circle
+       fill="#0000b2"
+       id="pin:b"
+       cx="0"
+       cy="-2"
+       r="3"
+       style="fill:#b20000;fill-opacity:1" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-17.453333"
+       y="-0.028248206"
+       id="text2"
+       inkscape:label="b"
+       style="font-size:5.33333px"
+       transform="scale(-1,1)"><tspan
+         style="fill:#ffffff"
+         id="tspan3">b</tspan></text>
+  </g>
+  <g
+     id="g3"
+     transform="matrix(-1,0,0,1,33,40)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-dasharray:none"
+       d="M 13,36.575725 V -1.9730364"
+       id="path7" />
+    <circle
+       fill="#0000b2"
+       id="pin:sel"
+       cx="13"
+       cy="40"
+       r="3"
+       style="fill:#0000b2;fill-opacity:1" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-6.4853253"
+       y="-11.241001"
+       id="text3"
+       inkscape:label="sel"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="matrix(0,-1,-1,0,0,0)">sel</text>
+  </g>
+  <g
+     id="g4"
+     transform="matrix(-1,0,0,1,40,22)"
+     inkscape:label="g4">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-dasharray:none"
+       d="M 82.902626,3 H 97.080327"
+       id="path6"
+       transform="translate(-40,-25)" />
+    <circle
+       fill="#b20000"
+       id="pin:in"
+       cx="60"
+       cy="-22"
+       r="3"
+       style="fill:#0000b2;fill-opacity:1"
+       inkscape:label="pin:in" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       text-anchor="end"
+       x="-42.882668"
+       y="-20.416449"
+       id="text4"
+       inkscape:label="in"
+       style="font-size:5.33333px"
+       transform="scale(-1,1)"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="-42.882668"
+         y="-20.416449"><tspan
+           style="fill:#ffffff"
+           id="tspan1">in</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="-42.882668"
+         y="-13.749786" /></text>
+  </g>
+</svg>
