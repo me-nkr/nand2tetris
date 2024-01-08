@@ -1,1 +1,1 @@
-sed -e "s/|//g" $1 | clip.exe
+sed -E -e "s/\|//g" -e "s/[01]{2,}/0b&/g" $1 | clip.exe
