@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>CUSTOM</shapeType>
+    </entry>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>customShape</string>
+      <shape>
+        <pins>
+          <entry>
+            <string>a</string>
+            <pin>
+              <pos x="0" y="0"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>b</string>
+            <pin>
+              <pos x="0" y="40"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>c</string>
+            <pin>
+              <pos x="0" y="80"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>d</string>
+            <pin>
+              <pos x="0" y="120"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>e</string>
+            <pin>
+              <pos x="0" y="160"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>f</string>
+            <pin>
+              <pos x="0" y="200"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>g</string>
+            <pin>
+              <pos x="0" y="240"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>h</string>
+            <pin>
+              <pos x="0" y="280"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>sel</string>
+            <pin>
+              <pos x="60" y="340"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>out</string>
+            <pin>
+              <pos x="100" y="140"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+        </pins>
+        <drawables>
+          <poly>
+            <poly path="M 55,327.49957 L 65,332.49957" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 60,336.99957 L 60,309.99957" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="62" y="320"/>
+            <p2 x="62" y="319"/>
+            <text>sel</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 92.5,134.99992 L 87.5,144.99992" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 97,139.99992 L 80,139.99992" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="91" y="142"/>
+            <p2 x="92" y="142"/>
+            <text>out</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 12.5,274.99957 L 9.6,284.99957" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 3,279.99957 L 20,279.99957" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="14" y="282"/>
+            <p2 x="15" y="282"/>
+            <text>h</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 12.5,234.99956 L 7.5,244.99956" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 3,239.99956 L 20,239.99956" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="14" y="241"/>
+            <p2 x="15" y="241"/>
+            <text>g</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 12.5,194.99956 L 7.5,204.99956" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 3,199.99956 L 20,199.99956" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="14" y="202"/>
+            <p2 x="15" y="202"/>
+            <text>f</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 12.5,154.99956 L 7.5,164.99956" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 3,159.99956 L 20,159.99956" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="14" y="161"/>
+            <p2 x="15" y="161"/>
+            <text>e</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 12.5,114.99992 L 9.6,124.99992" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 3,119.99992 L 20,119.99992" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="14" y="122"/>
+            <p2 x="15" y="122"/>
+            <text>d</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 12.5,74.99992 L 7.5,84.99992" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 3,79.99992 L 20,79.99992" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="15" y="81"/>
+            <p2 x="16" y="81"/>
+            <text>c</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 12.5,34.999924 L 7.5,44.999924" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 3,39.999924 L 20,39.999924" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="14" y="42"/>
+            <p2 x="15" y="42"/>
+            <text>b</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 12.5,-5.000078 L 7.5,4.999922" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 3,-7.8201294E-5 L 20,-7.8201294E-5" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="14" y="1"/>
+            <p2 x="15" y="1"/>
+            <text>a</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 20,-40 L 20,319.99954 L 80,299.99954 L 80,0 Z" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+        </drawables>
+      </shape>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>out</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>a</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>b</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>c</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>d</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>sel</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>e</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>f</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>g</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>h</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>        a                 b                 c                 d                 e                 f                 g                 h           sel         out        
+ 0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000   0b000   0b0000000000000000 
+ 0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000   0b001   0b0000000000000000 
+ 0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000   0b010   0b0000000000000000 
+ 0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000   0b011   0b0000000000000000 
+ 0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000   0b100   0b0000000000000000 
+ 0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000   0b101   0b0000000000000000 
+ 0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000   0b110   0b0000000000000000 
+ 0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000  0b0000000000000000   0b111   0b0000000000000000 
+ 0b0001001000110100  0b0010001101000101  0b0011010001010110  0b0100010101100111  0b0101011001111000  0b0110011110001001  0b0111100010011010  0b1000100110101011   0b000   0b0001001000110100 
+ 0b0001001000110100  0b0010001101000101  0b0011010001010110  0b0100010101100111  0b0101011001111000  0b0110011110001001  0b0111100010011010  0b1000100110101011   0b001   0b0010001101000101 
+ 0b0001001000110100  0b0010001101000101  0b0011010001010110  0b0100010101100111  0b0101011001111000  0b0110011110001001  0b0111100010011010  0b1000100110101011   0b010   0b0011010001010110 
+ 0b0001001000110100  0b0010001101000101  0b0011010001010110  0b0100010101100111  0b0101011001111000  0b0110011110001001  0b0111100010011010  0b1000100110101011   0b011   0b0100010101100111 
+ 0b0001001000110100  0b0010001101000101  0b0011010001010110  0b0100010101100111  0b0101011001111000  0b0110011110001001  0b0111100010011010  0b1000100110101011   0b100   0b0101011001111000 
+ 0b0001001000110100  0b0010001101000101  0b0011010001010110  0b0100010101100111  0b0101011001111000  0b0110011110001001  0b0111100010011010  0b1000100110101011   0b101   0b0110011110001001 
+ 0b0001001000110100  0b0010001101000101  0b0011010001010110  0b0100010101100111  0b0101011001111000  0b0110011110001001  0b0111100010011010  0b1000100110101011   0b110   0b0111100010011010 
+ 0b0001001000110100  0b0010001101000101  0b0011010001010110  0b0100010101100111  0b0101011001111000  0b0110011110001001  0b0111100010011010  0b1000100110101011   0b111   0b1000100110101011 
+</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Mux4Way16.dig</elementName>
+      <elementAttributes/>
+      <pos x="560" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Mux4Way16.dig</elementName>
+      <elementAttributes/>
+      <pos x="560" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Mux16.dig</elementName>
+      <elementAttributes/>
+      <pos x="740" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>3</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>2,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="700"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="540" y="320"/>
+      <p2 x="620" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="100"/>
+      <p2 x="560" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="420"/>
+      <p2 x="560" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="140"/>
+      <p2 x="480" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="140"/>
+      <p2 x="560" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="300"/>
+      <p2 x="560" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="300"/>
+      <p2 x="920" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="460"/>
+      <p2 x="480" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="460"/>
+      <p2 x="560" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="620"/>
+      <p2 x="560" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="720"/>
+      <p2 x="800" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="660"/>
+      <p2 x="620" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="340"/>
+      <p2 x="540" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="120"/>
+      <p2 x="740" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="440"/>
+      <p2 x="740" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="700"/>
+      <p2 x="480" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="700"/>
+      <p2 x="620" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="60"/>
+      <p2 x="560" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="220"/>
+      <p2 x="500" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="380"/>
+      <p2 x="560" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="540"/>
+      <p2 x="500" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="380"/>
+      <p2 x="800" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="100"/>
+      <p2 x="480" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="420"/>
+      <p2 x="480" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="180"/>
+      <p2 x="560" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="500"/>
+      <p2 x="560" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="120"/>
+      <p2 x="740" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="320"/>
+      <p2 x="740" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="140"/>
+      <p2 x="500" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="460"/>
+      <p2 x="500" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="340"/>
+      <p2 x="360" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="560"/>
+      <p2 x="620" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="240"/>
+      <p2 x="620" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="660"/>
+      <p2 x="620" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="320"/>
+      <p2 x="540" y="340"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
