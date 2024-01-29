@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>CUSTOM</shapeType>
+    </entry>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>customShape</string>
+      <shape>
+        <pins>
+          <entry>
+            <string>a</string>
+            <pin>
+              <pos x="0" y="0"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>b</string>
+            <pin>
+              <pos x="0" y="40"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>sum</string>
+            <pin>
+              <pos x="80" y="0"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>carry</string>
+            <pin>
+              <pos x="80" y="40"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+        </pins>
+        <drawables>
+          <poly>
+            <poly path="M 3,0 L 20,0" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="14" y="1"/>
+            <p2 x="15" y="1"/>
+            <text>a</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 3,40 L 20,40" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="14" y="42"/>
+            <p2 x="15" y="42"/>
+            <text>b</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 60,0 L 77,0" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="74" y="1"/>
+            <p2 x="75" y="1"/>
+            <text>sum</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 60,40 L 77,40" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="75" y="41"/>
+            <p2 x="76" y="41"/>
+            <text>carry</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>5</size>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M 40,10 L 40,30" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 30,20 L 50,20" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 20,-20 L 60,-20 L 60,60 L 20,60 Z" evenOdd="false"/>
+            <thickness>6</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+        </drawables>
+      </shape>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>a</string>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>b</string>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>sum</string>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>carry</string>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Xor.dig</elementName>
+      <elementAttributes/>
+      <pos x="760" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And.dig</elementName>
+      <elementAttributes/>
+      <pos x="760" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>   a      b     sum   carry 
+   0      0      0      0   
+   0      1      1      0   
+   1      0      1      0   
+   1      1      0      1   
+</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="980" y="240"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="720" y="320"/>
+      <p2 x="760" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="340"/>
+      <p2 x="880" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="340"/>
+      <p2 x="720" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="420"/>
+      <p2 x="760" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="440"/>
+      <p2 x="880" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="440"/>
+      <p2 x="700" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="360"/>
+      <p2 x="760" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="460"/>
+      <p2 x="760" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="320"/>
+      <p2 x="720" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="340"/>
+      <p2 x="720" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="360"/>
+      <p2 x="700" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="440"/>
+      <p2 x="700" y="460"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
