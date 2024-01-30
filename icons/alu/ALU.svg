@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="-80 -80 360 480"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="ALU.svg"
+   width="360"
+   height="480"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     showgrid="true"
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="2.87"
+     inkscape:cx="253.3101"
+     inkscape:cy="221.08014"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11">
+    <inkscape:grid
+       type="xygrid"
+       empspacing="4"
+       spacingx="5"
+       spacingy="5"
+       id="grid1"
+       visible="true"
+       originx="0"
+       originy="0"
+       units="px" />
+  </sodipodi:namedview>
+  <g
+     id="g1">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m -27.5,35 -5,10"
+       id="path32"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m -37.5,40 h 15"
+       id="path18"
+       sodipodi:nodetypes="cc" />
+    <circle
+       fill="#0000b2"
+       id="pin:x"
+       cx="-40"
+       cy="40"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-25.725332"
+       y="41.478271"
+       id="text1"
+       inkscape:label="x"
+       style="font-size:5.33333px;fill:#ffffff">x</text>
+  </g>
+  <g
+     id="g2">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m -27.5,274.99992 -5,10"
+       id="path33"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m -37.5,280 h 15"
+       id="path19" />
+    <circle
+       fill="#0000b2"
+       id="pin:y"
+       cx="-40"
+       cy="280"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-25.719999"
+       y="280.92392"
+       id="text2"
+       inkscape:label="y"
+       style="font-size:5.33333px;fill:#ffffff">y</text>
+  </g>
+  <g
+     id="g3">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 0,-57.5 v 25"
+       id="path26" />
+    <circle
+       fill="#0000b2"
+       id="pin:zx"
+       cx="0"
+       cy="-60"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="34.768005"
+       y="1.4245784"
+       id="text3"
+       inkscape:label="zx"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="rotate(-90)">zx</text>
+  </g>
+  <g
+     id="g5">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 40,-57.5 v 45"
+       id="path27" />
+    <circle
+       fill="#0000b2"
+       id="pin:nx"
+       cx="40"
+       cy="-60"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="15"
+       y="41.414211"
+       id="text5"
+       inkscape:label="nx"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="rotate(-90)">nx</text>
+  </g>
+  <g
+     id="g7">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 80,-57.5 v 65"
+       id="path28" />
+    <circle
+       fill="#0000b2"
+       id="pin:zy"
+       cx="80"
+       cy="-60"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-5"
+       y="80.931564"
+       id="text7"
+       inkscape:label="zy"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="rotate(-90)">zy</text>
+  </g>
+  <g
+     id="g8">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 120,-57.5 v 85"
+       id="path29" />
+    <circle
+       fill="#0000b2"
+       id="pin:ny"
+       cx="120"
+       cy="-60"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-25.453333"
+       y="121.2071"
+       id="text8"
+       inkscape:label="ny"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="rotate(-90)">ny</text>
+  </g>
+  <g
+     id="g6">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 160,-57.5 v 105"
+       id="path30" />
+    <circle
+       fill="#0000b2"
+       id="pin:f"
+       cx="160"
+       cy="-60"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-45.080002"
+       y="162.15381"
+       id="text6"
+       inkscape:label="f"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="rotate(-90)">f</text>
+  </g>
+  <g
+     id="g4">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 200,-57.5 v 125"
+       id="path31" />
+    <circle
+       fill="#0000b2"
+       id="pin:no"
+       cx="200"
+       cy="-60"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="-65.453331"
+       y="201.31999"
+       id="text4"
+       inkscape:label="no"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="rotate(-90)">no</text>
+  </g>
+  <g
+     id="g9">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 232.49992,154.99992 -5,10"
+       id="path34"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 237.5,160 h -15"
+       id="path22" />
+    <circle
+       fill="#b20000"
+       id="pin:out"
+       cx="240"
+       cy="160"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       text-anchor="end"
+       x="231.15466"
+       y="161.58032"
+       id="text9"
+       inkscape:label="out"
+       style="font-size:5.33333px;fill:#ffffff">out</text>
+  </g>
+  <g
+     id="g10">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 60,377.5 v -55"
+       id="path23" />
+    <circle
+       fill="#b20000"
+       id="pin:zr"
+       cx="60"
+       cy="380"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       text-anchor="end"
+       x="-324.92001"
+       y="61.416676"
+       id="text10"
+       inkscape:label="zr"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="rotate(-90)">zr</text>
+  </g>
+  <g
+     id="g11">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 100,377.5 v -75"
+       id="path24" />
+    <circle
+       fill="#b20000"
+       id="pin:ng"
+       cx="100"
+       cy="380"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       text-anchor="end"
+       x="-304.54666"
+       y="101.20502"
+       id="text11"
+       inkscape:label="ng"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="rotate(-90)">ng</text>
+  </g>
+  <g
+     id="g22">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
+       d="m 140,377.5 v -95"
+       id="path25" />
+    <circle
+       fill="#b20000"
+       id="pin:of"
+       cx="140"
+       cy="380"
+       r="3"
+       inkscape:label="pin:of" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       text-anchor="end"
+       x="-285"
+       y="142.08459"
+       id="text22"
+       inkscape:label="of"
+       style="font-size:5.33333px;fill:#ffffff"
+       transform="rotate(-90)">of</text>
+  </g>
+  <path
+     style="display:inline;fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square"
+     d="M -20,-40 220,80 V 240 L -20,360 V 200 l 80,-40 -80,-40 z"
+     id="path17" />
+</svg>
