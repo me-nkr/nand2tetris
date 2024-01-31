@@ -31,16 +31,9 @@
             </pin>
           </entry>
           <entry>
-            <string>carry</string>
-            <pin>
-              <pos x="140" y="40"/>
-              <showLabel>false</showLabel>
-            </pin>
-          </entry>
-          <entry>
             <string>out</string>
             <pin>
-              <pos x="140" y="0"/>
+              <pos x="140" y="20"/>
               <showLabel>false</showLabel>
             </pin>
           </entry>
@@ -117,7 +110,7 @@
             </color>
           </text>
           <poly>
-            <poly path="M 132.5,-5 L 127.5,5" evenOdd="false"/>
+            <poly path="M 132.5,14.999924 L 127.5,24.999924" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -128,7 +121,7 @@
             </color>
           </poly>
           <poly>
-            <poly path="M 120,0 L 137,0" evenOdd="false"/>
+            <poly path="M 120,19.999924 L 137,19.999924" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -139,33 +132,9 @@
             </color>
           </poly>
           <text>
-            <p1 x="131" y="2"/>
-            <p2 x="132" y="2"/>
+            <p1 x="131" y="22"/>
+            <p2 x="132" y="22"/>
             <text>out</text>
-            <orientation>RIGHTBOTTOM</orientation>
-            <size>5</size>
-            <color>
-              <red>255</red>
-              <green>255</green>
-              <blue>255</blue>
-              <alpha>255</alpha>
-            </color>
-          </text>
-          <poly>
-            <poly path="M 120,40 L 137,40" evenOdd="false"/>
-            <thickness>6</thickness>
-            <filled>false</filled>
-            <color>
-              <red>0</red>
-              <green>0</green>
-              <blue>0</blue>
-              <alpha>255</alpha>
-            </color>
-          </poly>
-          <text>
-            <p1 x="135" y="41"/>
-            <p2 x="136" y="41"/>
-            <text>carry</text>
             <orientation>RIGHTBOTTOM</orientation>
             <size>5</size>
             <color>
@@ -221,12 +190,12 @@
           <string>a</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>dec</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
         </entry>
       </elementAttributes>
       <pos x="-60" y="160"/>
@@ -239,12 +208,12 @@
           <string>b</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>dec</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
         </entry>
       </elementAttributes>
       <pos x="-60" y="220"/>
@@ -257,33 +226,19 @@
           <string>out</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>dec</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
         </entry>
       </elementAttributes>
       <pos x="140" y="480"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>carry</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2860" y="360"/>
-    </visualElement>
-    <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
-        <entry>
-          <string>Input Splitting</string>
-          <string>16</string>
-        </entry>
         <entry>
           <string>mirror</string>
           <boolean>true</boolean>
@@ -293,12 +248,16 @@
           <int>9</int>
         </entry>
         <entry>
-          <string>Output Splitting</string>
-          <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>16</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
         </entry>
       </elementAttributes>
       <pos x="-40" y="220"/>
@@ -307,10 +266,6 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
-          <string>Input Splitting</string>
-          <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
-        </entry>
-        <entry>
           <string>mirror</string>
           <boolean>true</boolean>
         </entry>
@@ -319,12 +274,16 @@
           <int>9</int>
         </entry>
         <entry>
-          <string>Output Splitting</string>
-          <string>16</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>16</string>
         </entry>
       </elementAttributes>
       <pos x="120" y="420"/>
@@ -591,10 +550,6 @@
     <wire>
       <p1 x="2620" y="360"/>
       <p2 x="2680" y="360"/>
-    </wire>
-    <wire>
-      <p1 x="2800" y="360"/>
-      <p2 x="2860" y="360"/>
     </wire>
     <wire>
       <p1 x="-60" y="220"/>
@@ -887,10 +842,6 @@
     <wire>
       <p1 x="880" y="200"/>
       <p2 x="880" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="2800" y="340"/>
-      <p2 x="2800" y="360"/>
     </wire>
     <wire>
       <p1 x="500" y="240"/>

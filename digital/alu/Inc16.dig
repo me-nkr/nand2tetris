@@ -19,14 +19,7 @@
           <entry>
             <string>in</string>
             <pin>
-              <pos x="0" y="20"/>
-              <showLabel>false</showLabel>
-            </pin>
-          </entry>
-          <entry>
-            <string>carry</string>
-            <pin>
-              <pos x="140" y="40"/>
+              <pos x="0" y="0"/>
               <showLabel>false</showLabel>
             </pin>
           </entry>
@@ -40,7 +33,7 @@
         </pins>
         <drawables>
           <poly>
-            <poly path="M 12.5,14.999924 L 7.5,24.999924" evenOdd="false"/>
+            <poly path="M 12.5,-5.0000763 L 7.5,4.9999237" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -51,7 +44,7 @@
             </color>
           </poly>
           <poly>
-            <poly path="M 3,19.999924 L 20,19.999924" evenOdd="false"/>
+            <poly path="M 3,-7.6293945E-5 L 20,-7.6293945E-5" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -62,8 +55,8 @@
             </color>
           </poly>
           <text>
-            <p1 x="13" y="22"/>
-            <p2 x="14" y="22"/>
+            <p1 x="13" y="2"/>
+            <p2 x="14" y="2"/>
             <text>in</text>
             <orientation>LEFTBOTTOM</orientation>
             <size>5</size>
@@ -75,7 +68,7 @@
             </color>
           </text>
           <poly>
-            <poly path="M 132.5,-5 L 127.5,5" evenOdd="false"/>
+            <poly path="M 132.5,-5.0000763 L 127.5,4.9999237" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -86,7 +79,7 @@
             </color>
           </poly>
           <poly>
-            <poly path="M 120,0 L 137,0" evenOdd="false"/>
+            <poly path="M 120,-7.6293945E-5 L 137,-7.6293945E-5" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -110,31 +103,7 @@
             </color>
           </text>
           <poly>
-            <poly path="M 120,40 L 137,40" evenOdd="false"/>
-            <thickness>6</thickness>
-            <filled>false</filled>
-            <color>
-              <red>0</red>
-              <green>0</green>
-              <blue>0</blue>
-              <alpha>255</alpha>
-            </color>
-          </poly>
-          <text>
-            <p1 x="135" y="41"/>
-            <p2 x="136" y="41"/>
-            <text>carry</text>
-            <orientation>RIGHTBOTTOM</orientation>
-            <size>5</size>
-            <color>
-              <red>255</red>
-              <green>255</green>
-              <blue>255</blue>
-              <alpha>255</alpha>
-            </color>
-          </text>
-          <poly>
-            <poly path="M 85,10 L 85,30" evenOdd="false"/>
+            <poly path="M 85,-10 L 85,10" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -145,7 +114,7 @@
             </color>
           </poly>
           <poly>
-            <poly path="M 75,20 L 95,20" evenOdd="false"/>
+            <poly path="M 75,0 L 95,0" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -156,7 +125,7 @@
             </color>
           </poly>
           <poly>
-            <poly path="M 20,-40 L 120,-40 L 120,80 L 20,80 Z" evenOdd="false"/>
+            <poly path="M 20,-60 L 120,-60 L 120,60 L 20,60 Z" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -167,7 +136,7 @@
             </color>
           </poly>
           <poly>
-            <poly path="M 55,10 L 55,30" evenOdd="false"/>
+            <poly path="M 55,-10 L 55,10" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -178,7 +147,7 @@
             </color>
           </poly>
           <poly>
-            <poly path="M 45,20 L 65,20" evenOdd="false"/>
+            <poly path="M 45,0 L 65,0" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
@@ -229,17 +198,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="740" y="440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>carry</string>
-        </entry>
-      </elementAttributes>
-      <pos x="740" y="480"/>
+      <pos x="740" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
