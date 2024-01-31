@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showguides="true"
-     inkscape:zoom="2.87"
-     inkscape:cx="253.3101"
-     inkscape:cy="221.08014"
+     inkscape:zoom="2.0293965"
+     inkscape:cx="192.17536"
+     inkscape:cy="236.7699"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
@@ -257,11 +257,13 @@
        style="font-size:5.33333px;fill:#ffffff">out</text>
   </g>
   <g
-     id="g10">
+     id="g10"
+     transform="translate(20)">
     <path
        style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
-       d="m 60,377.5 v -55"
-       id="path23" />
+       d="m 60,377.5 v -65"
+       id="path23"
+       sodipodi:nodetypes="cc" />
     <circle
        fill="#b20000"
        id="pin:zr"
@@ -272,7 +274,7 @@
        fill="#808080"
        font-size="18px"
        text-anchor="end"
-       x="-324.92001"
+       x="-314.92001"
        y="61.416676"
        id="text10"
        inkscape:label="zr"
@@ -280,11 +282,13 @@
        transform="rotate(-90)">zr</text>
   </g>
   <g
-     id="g11">
+     id="g11"
+     transform="translate(20)">
     <path
        style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
-       d="m 100,377.5 v -75"
-       id="path24" />
+       d="m 100,377.5 v -85"
+       id="path24"
+       sodipodi:nodetypes="cc" />
     <circle
        fill="#b20000"
        id="pin:ng"
@@ -295,36 +299,12 @@
        fill="#808080"
        font-size="18px"
        text-anchor="end"
-       x="-304.54666"
+       x="-294.54666"
        y="101.20502"
        id="text11"
        inkscape:label="ng"
        style="font-size:5.33333px;fill:#ffffff"
        transform="rotate(-90)">ng</text>
-  </g>
-  <g
-     id="g22">
-    <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:6;stroke-linecap:square"
-       d="m 140,377.5 v -95"
-       id="path25" />
-    <circle
-       fill="#b20000"
-       id="pin:of"
-       cx="140"
-       cy="380"
-       r="3"
-       inkscape:label="pin:of" />
-    <text
-       fill="#808080"
-       font-size="18px"
-       text-anchor="end"
-       x="-285"
-       y="142.08459"
-       id="text22"
-       inkscape:label="of"
-       style="font-size:5.33333px;fill:#ffffff"
-       transform="rotate(-90)">of</text>
   </g>
   <path
      style="display:inline;fill:none;stroke:#000000;stroke-width:6;stroke-linecap:square"
