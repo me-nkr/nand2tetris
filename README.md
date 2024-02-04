@@ -10,6 +10,7 @@ nand2tetris/
     |- icons/ ( SVG icons for components )
     |- commit-msg ( git commit hook script )
     |- installgithook.sh ( git commit hook installer )
+    |- testgen.awk ( test vector generator for digital ) [ read the file for docs ]
     |- README.md
 ```
 
