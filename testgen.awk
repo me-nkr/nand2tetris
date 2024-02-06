@@ -39,6 +39,7 @@ BEGIN {
 NR == 1 {
     if (NF - 2 != length(headers)) {
         print "header numbers mismatch"
+        failed = 1
         exit 1
     }
     $1 = $1
@@ -54,7 +55,7 @@ NR != 1 {
 
 END {
     if (!exited) {
-        system("clip.exe < temp.cmp")
+        if (!failed) system("clip.exe < temp.cmp")
         system("rm temp.cmp")
     }
 }
@@ -63,24 +64,28 @@ function handleTime(time) {
     if (time ~ /^\s*[0-9]+\+\s*$/) return "  1   "
     if (time ~ /^\s*[0-9]+\s*$/) return "  0   "
     print "invalid time value "NR" "NF
+    failed = 1
     exit 1
 }
 
 function handleBinary(binary) {
     if (binary ~ /^\s*[01]+\s*$/) return gensub(/^(\s*)\s\s[^01]/, "\\1 0b", 1, binary)
     print "invalid binary value "NR" "NF
+    failed = 1
     exit 1
 }
 
 function handleBit(bit) {
     if (bit ~ /^\s*[01]\s*$/) return bit
     print "invalid bit value "NR" "NF
+    failed = 1
     exit 1
 }
 
 function handleInt(integer) {
     if (integer ~ /^\s*-?[0-9]+\s*$/) return integer
     print "invalid integer value "NR" "NF
+    failed = 1
     exit 1
 }
 
@@ -92,6 +97,7 @@ function handleColumn(type, value) {
         case "i": return handleInt(value)
         default:
             print "invalid column type"
+            failed = 1
             exit 1
     }
 }
