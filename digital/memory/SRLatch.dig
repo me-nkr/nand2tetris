@@ -50,17 +50,6 @@
               <alpha>255</alpha>
             </color>
           </poly>
-          <poly>
-            <poly path="M 12.5,-5 L 7.5,5" evenOdd="false"/>
-            <thickness>6</thickness>
-            <filled>false</filled>
-            <color>
-              <red>0</red>
-              <green>0</green>
-              <blue>0</blue>
-              <alpha>255</alpha>
-            </color>
-          </poly>
           <text>
             <p1 x="10" y="2"/>
             <p2 x="11" y="2"/>
@@ -85,17 +74,6 @@
               <alpha>255</alpha>
             </color>
           </poly>
-          <poly>
-            <poly path="M 12.5,35 L 7.5,45" evenOdd="false"/>
-            <thickness>6</thickness>
-            <filled>false</filled>
-            <color>
-              <red>0</red>
-              <green>0</green>
-              <blue>0</blue>
-              <alpha>255</alpha>
-            </color>
-          </poly>
           <text>
             <p1 x="5" y="41"/>
             <p2 x="6" y="41"/>
@@ -111,17 +89,6 @@
           </text>
           <poly>
             <poly path="M 97,20 L 80,20" evenOdd="false"/>
-            <thickness>6</thickness>
-            <filled>false</filled>
-            <color>
-              <red>0</red>
-              <green>0</green>
-              <blue>0</blue>
-              <alpha>255</alpha>
-            </color>
-          </poly>
-          <poly>
-            <poly path="M 92.5,15 L 87.5,25" evenOdd="false"/>
             <thickness>6</thickness>
             <filled>false</filled>
             <color>
