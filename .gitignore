@@ -2,7 +2,7 @@
 # - simulation suite
 tools/
 # - out files
-projects/*/*.out
+projects/**/*.out
 
 # Digtal simulator playground
 digital/Play.dig
