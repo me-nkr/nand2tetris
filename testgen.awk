@@ -83,7 +83,7 @@ function handleBit(bit) {
 }
 
 function handleInt(integer) {
-    if (integer ~ /^\s*-?[0-9]+\s*$/) return integer
+    if (integer ~ /^\s*-?[0-9]+\s*$/) return gensub(/^(\s*)\s(\-?[0-9]+)\s(\s*)$/, "\\1(\\2)\\3", 1, integer)
     print "invalid integer value "NR" "NF
     failed = 1
     exit 1
