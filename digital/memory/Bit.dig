@@ -229,6 +229,11 @@
           <string>Testdata</string>
           <testData>
             <dataString>  time   in   load   out  
+
+while(out)
+   C      0     1     x   
+end while
+
    1      0     0     0   
    0      0     0     0   
    1      0     1     0   
