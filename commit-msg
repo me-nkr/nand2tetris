@@ -11,6 +11,7 @@
 #  |     |-> affected part of project, could be either
 #  |              project - nand2tetris project files
 #  |              digital - digital simulation files
+#  |              digital/custom - digital custom java components source
 #  |              icons   - digital component icons
 #  |              docs    - documentations
 #  |              misc    - anything else
@@ -19,7 +20,7 @@
 #           --[empty line (if body)]--
 #  [optional body]
 
-pattern="^(new|fix)\((project|digital|icons|docs|misc)\):\s.*\n(\n.*)*$"
+pattern="^(new|fix)\((project|digital(\/custom)?|icons|docs|misc)\):\s.*\n(\n.*)*$"
 
 if sed -e "/^\#.*/d" $1 | grep -zPq $pattern; then
     exit 0

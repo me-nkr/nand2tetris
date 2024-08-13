@@ -7,6 +7,7 @@
 nand2tetris/
     |- projects/ ( nand2tetris course files and solutions )
     |- digital/ ( Digital simulator component files )
+    |- digital/custom ( Digital simulator custom java components source files )
     |- icons/ ( SVG icons for components )
     |- commit-msg ( git commit hook script )
     |- installgithook.sh ( git commit hook installer )
@@ -57,6 +58,7 @@ nand2tetris/
      |     |-> affected part of project, could be either
      |              project - nand2tetris project files
      |              digital - digital simulation files
+     |              digital/custom - digital custom java components source
      |              icons   - digital component icons
      |              docs    - documentations
      |              misc    - anything else

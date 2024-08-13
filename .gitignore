@@ -4,5 +4,9 @@ tools/
 # - out files
 projects/**/*.out
 
-# Digtal simulator playground
+# Digtal simulator
+# - playground
 digital/Play.dig
+# - custom java components
+.vscode/
+digital/custom/target/
