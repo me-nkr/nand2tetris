@@ -13,14 +13,19 @@
 
 @pressed
 M=0
+@current
+M=0
+@SCREEN
+D=A
 @i
-M=0
-@word
-M=0
+M=D
 
 (LOOP)
     @KBD
     D=M
+
+    @current
+    M=D
 
     @pressed
     D=D-M
@@ -38,7 +43,7 @@ M=0
     D;JEQ
     
 (CLOOP)
-    @KBD
+    @current
     D=M
 
     @pressed
@@ -63,8 +68,6 @@ M=0
 (BLACK)
     @i
     D=M
-
-    @word
     A=D
     M=-1
 
@@ -74,8 +77,6 @@ M=0
 (WHITE)
     @i
     D=M
-
-    @word
     A=D
     M=0
 
