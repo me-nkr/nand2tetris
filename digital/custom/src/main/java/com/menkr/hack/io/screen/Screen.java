@@ -44,7 +44,7 @@ public class Screen extends Node implements Element, RAMInterface {
     private ScreenDialog screenDialog;
     private final int size;
     private final String label;
-    private final int bits = 1; //
+    private final int bits = 16;
     private final int addrBits;
     private ObservableValue dataOut;
     private ObservableValue addrIn;
@@ -64,7 +64,7 @@ public class Screen extends Node implements Element, RAMInterface {
         label = attr.getLabel();
         width = attr.get(Keys.GRAPHIC_WIDTH);
         height = attr.get(Keys.GRAPHIC_HEIGHT);
-        size = (width * height) / 1; //
+        size = (width * height) / 16;
 
         int aBits = 1;
         while (((1 << aBits) < size)) aBits++;
@@ -80,7 +80,7 @@ public class Screen extends Node implements Element, RAMInterface {
     @Override
     public void setInputs(ObservableValues inputs) throws NodeException {
         addrIn = inputs.get(0).checkBits(addrBits, this).addObserverToValue(this);
-        dataIn = inputs.get(1).checkBits(bits, this).addObserverToValue(this); //
+        dataIn = inputs.get(1).checkBits(bits, this).addObserverToValue(this);
         strIn = inputs.get(2).checkBits(1, this).addObserverToValue(this);
         clkIn = inputs.get(3).checkBits(1, this).addObserverToValue(this);
     }
