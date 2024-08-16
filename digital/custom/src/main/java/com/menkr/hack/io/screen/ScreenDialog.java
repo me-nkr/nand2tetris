@@ -5,6 +5,8 @@ import de.neemann.digital.gui.components.graphics.MoveFocusTo;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
 
 /**
  * The dialog used to show the screen contents.
@@ -21,7 +23,7 @@ public class ScreenDialog extends JDialog {
      * @param height height in pixel
      */
     public ScreenDialog(Window parent, int width, int height) {
-        super(parent, "Hack Screen", ModalityType.MODELESS);
+        super(parent, "Hack Display", ModalityType.MODELESS);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
         screenComponent = new ScreenComponent(width, height);
@@ -32,6 +34,13 @@ public class ScreenDialog extends JDialog {
         setVisible(true);
 
         MoveFocusTo.addListener(this, parent);
+        screenComponent.addComponentListener(new ComponentAdapter() {
+            @Override
+            public void componentResized(ComponentEvent e) {
+                super.componentResized(e);
+                ScreenDialog.this.pack();
+            }
+        });
     }
 
     /**
@@ -40,7 +49,7 @@ public class ScreenDialog extends JDialog {
      * @param memory the raw data to use
      * @param bank   the bank to show
      */
-    public void updateGraphic(DataField memory, boolean bank) {
-        screenComponent.updateGraphic(memory.getData(), bank);
+    public void updateGraphic(DataField memory) {
+        screenComponent.updateGraphic(memory.getData());
     }
 }

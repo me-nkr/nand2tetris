@@ -1,5 +1,7 @@
 package com.menkr.hack.io;
 
+import com.menkr.hack.io.screen.Screen;
+
 import de.neemann.digital.draw.library.ComponentManager;
 import de.neemann.digital.draw.library.ComponentSource;
 import de.neemann.digital.draw.library.ElementLibrary;
@@ -19,6 +21,8 @@ public class IOComponentSource implements ComponentSource {
      */
     @Override
     public void registerComponents(ComponentManager manager) throws InvalidNodeException {
+        
+        manager.addComponent("Nand2Tetris", Screen.DESCRIPTION);
 
     }
 

@@ -13,7 +13,6 @@ public class ScreenComponent extends JComponent {
     private final int width;
     private final int height;
     private long[] data;
-    private int offs;
 
     /**
      * Creates a new instance.
@@ -42,12 +41,8 @@ public class ScreenComponent extends JComponent {
      * @param data the data to show
      * @param bank the bank to show
      */
-    public void updateGraphic(long[] data, boolean bank) {
+    public void updateGraphic(long[] data) {
         this.data = data;
-        if (bank)
-            offs = width * height;
-        else
-            offs = 0;
         repaint();
     }
 
@@ -58,7 +53,7 @@ public class ScreenComponent extends JComponent {
                 int xPos = x * getWidth() / width;
                 int dx = (x + 1) * getWidth() / width - xPos;
                 for (int y = 0; y < height; y++) {
-                    int p = (int) data[offs + y * width + x];
+                    int p = (int) data[y * width + x];
                     if (p >= PALETTE.length) p = 1;
                     g.setColor(PALETTE[p]);
 

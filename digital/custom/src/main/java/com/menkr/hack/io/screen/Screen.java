@@ -29,12 +29,10 @@ public class Screen extends Node implements Element, RAMInterface {
     public static final ElementTypeDescription DESCRIPTION
             = new ElementTypeDescription(Screen.class,
             input("A"),
+            input("Din"),
             input("str"),
-            input("C").setClock(),
-            input("ld"),
-            input("B"))
+            input("C").setClock())
             .addAttribute(Keys.ROTATE)
-            .addAttribute(Keys.BITS)
             .addAttribute(Keys.LABEL)
             .addAttribute(Keys.GRAPHIC_WIDTH)
             .addAttribute(Keys.GRAPHIC_HEIGHT);
@@ -42,24 +40,19 @@ public class Screen extends Node implements Element, RAMInterface {
     private final DataField memory;
     private final int width;
     private final int height;
-    private final int bankSize;
 
     private ScreenDialog screenDialog;
     private final int size;
     private final String label;
-    private final int bits;
+    private final int bits = 1; //
     private final int addrBits;
     private ObservableValue dataOut;
     private ObservableValue addrIn;
+    private ObservableValue dataIn;
     private ObservableValue strIn;
     private ObservableValue clkIn;
-    private ObservableValue ldIn;
-    private ObservableValue dataIn;
-    private ObservableValue bankIn;
     private boolean lastClk;
-    private boolean ld;
     private int addr;
-    private boolean lastBank;
     private boolean runningInMainFrame;
 
     /**
@@ -71,9 +64,7 @@ public class Screen extends Node implements Element, RAMInterface {
         label = attr.getLabel();
         width = attr.get(Keys.GRAPHIC_WIDTH);
         height = attr.get(Keys.GRAPHIC_HEIGHT);
-        bankSize = width * height;
-        bits = attr.get(Keys.BITS);
-        size = bankSize * 2;
+        size = (width * height) / 1; //
 
         int aBits = 1;
         while (((1 << aBits) < size)) aBits++;
@@ -83,18 +74,15 @@ public class Screen extends Node implements Element, RAMInterface {
 
         dataOut = new ObservableValue("D", bits)
                 .setToHighZ()
-                .setPinDescription(DESCRIPTION)
-                .setBidirectional();
+                .setPinDescription(DESCRIPTION);
     }
 
     @Override
     public void setInputs(ObservableValues inputs) throws NodeException {
         addrIn = inputs.get(0).checkBits(addrBits, this).addObserverToValue(this);
-        strIn = inputs.get(1).checkBits(1, this).addObserverToValue(this);
-        clkIn = inputs.get(2).checkBits(1, this).addObserverToValue(this);
-        ldIn = inputs.get(3).checkBits(1, this).addObserverToValue(this);
-        bankIn = inputs.get(4).checkBits(1, this).addObserverToValue(this);
-        dataIn = inputs.get(5).checkBits(bits, this).addObserverToValue(this); // additional input to read the port
+        dataIn = inputs.get(1).checkBits(bits, this).addObserverToValue(this); //
+        strIn = inputs.get(2).checkBits(1, this).addObserverToValue(this);
+        clkIn = inputs.get(3).checkBits(1, this).addObserverToValue(this);
     }
 
     @Override
@@ -114,33 +102,18 @@ public class Screen extends Node implements Element, RAMInterface {
         } else
             str = false;
 
-        ld = ldIn.getBool();
-        if (ld || str)
-            addr = (int) addrIn.getValue();
-
-        boolean bank = bankIn.getBool();
-
         if (str) {
+            addr = (int) addrIn.getValue();
             memory.setData(addr, data);
-            if (addr >= bankSize == bank)
-                updateGraphic(bank);
+            updateGraphic();
         }
-
-        if (lastBank != bank)
-            updateGraphic(bank);
-
-        lastBank = bank;
 
         lastClk = clk;
     }
 
     @Override
     public void writeOutputs() throws NodeException {
-        if (ld) {
-            dataOut.setValue(memory.getDataWord(addr));
-        } else {
-            dataOut.setToHighZ();
-        }
+        dataOut.setValue(memory.getDataWord(addr));
     }
 
     @Override
@@ -155,16 +128,16 @@ public class Screen extends Node implements Element, RAMInterface {
 
     private final AtomicBoolean paintPending = new AtomicBoolean();
 
-    private void updateGraphic(boolean bank) {
+    private void updateGraphic() {
         if (runningInMainFrame) {
             if (paintPending.compareAndSet(false, true)) {
                 SwingUtilities.invokeLater(() -> {
                     if (screenDialog == null || !screenDialog.isVisible()) {
                         screenDialog = new ScreenDialog(getModel().getWindowPosManager().getMainFrame(), width, height);
-                        getModel().getWindowPosManager().register("GraphicCard_" + label, screenDialog);
+                        getModel().getWindowPosManager().register("HackScreen_" + label, screenDialog);
                     }
                     paintPending.set(false);
-                    screenDialog.updateGraphic(memory, bank);
+                    screenDialog.updateGraphic(memory);
                 });
             }
         }
